@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-container {
+    display: flex   ;
+    /* flex-direction: row; */
+    height: 100vh;
+}
+
+
+.company-logo {
+    width: 400px;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    background: url(./image-brief/halie-west-25xggax4bSA-unsplash.jpg) no-repeat;
+    background-size: cover;
+}
+
+.company-logo .logo-container {
+    width:100%;
+    background: rgb(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 100px;
+    filter:
+}
+
+.logo-container .company-name {
+    position: relative;
+    color: #fff;
+    font-size: 2.5rem;
+
+}
+
+.company-logo .image-logo {
+    width: auto;
+    height: 100px;
+}
+
+.sign-up-form {
+    background-color: rgb(211, 201, 201);
+    position: relative;
+    width: 100%;
+}
+.sign-up-form .sign-up {
+    position: relative;
+    height: 35%;
+}
+.sign-up-form .hero {
+}
+
+.hero .text {
+    max-width: 55ch;
+    position: absolute;
+    left: 30px;
+    bottom: 80px;
+}
+
+.hero .text2 {
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
+}
+
+.hero .text, .text2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.text span, .text2 span {
+    font-style: italic;
+}
+
+.sign-up-title {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.sign-up-form .forms {
+    background-color:#fff;
+    position: relative;
+}
+
+.sign-up .actual__form {
+    position: absolute;
+    left: 30px;
+    top: 60px;
+
+    display: flex;
+}
+
+.column-form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+}
+
+.column-form label {
+    font-size: 0.72rem;
+    color: rgb(136, 136, 136);
+}
+
+.column-form input {
+    width: 200px;
+    height: 23px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    color: rgb(189, 197, 204);
+}
+
+.column-form input:focus {
+    border: 1px solid blue;
+}
+
+.column-form input:invalid {
+    border: 1px solid red;
+}
+
+.actual__form > .left {
+    margin-right: 60px;
+}
+
+.sign-up-button {
+    position: relative;
+}
+
+.sign-up-button > button {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 7px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(73, 105, 73);
+}
+
+.sign-up-button .login__text {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
